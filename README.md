@@ -32,11 +32,14 @@ HOW TO RUN
 2. Install dependencies: `!pip install yfinance` in the first cell.
 3. Run all cells to replicate the data extraction and clustering results.
 
-3D Risk Clusters
-![3D Cluster Map](Agglomerative Clustering.png)
+# Hierarchical Dendrogram
+![Dendrogram](dendrogram.jpg)
 
-#### Hierarchical Dendrogram
-![Dendrogram](dendrogram.png)
+# Agglomerative Clustering
+![3D Cluster Map](Agglomerative_Clustering.jpg)
 
-#### Statistical Distribution (Boxplots)
-![Boxplots](boxplot.png)
+# Elbow Graph
+![Dendrogram](elbow.jpg)
+
+# Statistical Distribution (Boxplots)
+![Boxplots](visualisations.jpg)
