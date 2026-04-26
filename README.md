@@ -21,7 +21,7 @@ Dendrogram: Justifies the selection of N=3 clusters using Ward's linkage.
 Boxplots: Demonstrates the statistical "spread" of each group, confirming that Cluster 0 has the lowest variance.Language: Python 3.x (Google Colab)
 
 Libraries: 
-yfinance, scikit-learn, pandas, matplotlib, seaborn, scipy
+yfinance, scikit-learn, pandas, matplotlib & seaborn, seaborn, scipy, silhouette_score, StandardScaler, numpy
 
 BI Tools: 
 Star Schema Design, CRM Sustainability Framework
@@ -32,13 +32,11 @@ HOW TO RUN
 2. Install dependencies: `!pip install yfinance` in the first cell.
 3. Run all cells to replicate the data extraction and clustering results.
 
-4. Libraries:
-yfinance: Used to fetch 3 years of historical market data for all S&P 500 tickers.
-pandas: Used for data manipulation, cleaning, and calculating daily returns.
-numpy: Used for mathematical operations and array handling.
-scikit-learn:
-StandardScaler for feature normalization.
-KMeans for centroid-based clustering.
-silhouette_score for model validation.
-scipy: Used for linkage and dendrogram generation in hierarchical clustering.
-matplotlib & seaborn: Used for generating the 3D scatter plots, boxplots, and the Elbow Method graph.
+3D Risk Clusters
+![3D Cluster Map](Agglomerative Clustering.png)
+
+#### Hierarchical Dendrogram
+![Dendrogram](dendrogram.png)
+
+#### Statistical Distribution (Boxplots)
+![Boxplots](boxplot.png)
