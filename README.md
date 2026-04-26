@@ -33,7 +33,7 @@ HOW TO RUN
 3. Run all cells to replicate the data extraction and clustering results.
 
 # Hierarchical Dendrogram
-![Dendrogram](dendrogram.jpg)
+![Dendrogram](Dendrogram.jpg)
 
 # Agglomerative Clustering
 ![3D Cluster Map](Agglomerative_Clustering.jpg)
