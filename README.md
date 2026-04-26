@@ -32,6 +32,7 @@ HOW TO RUN
 2. Install dependencies: `!pip install yfinance` in the first cell.
 3. Run all cells to replicate the data extraction and clustering results.
 
+
 # Hierarchical Dendrogram
 ![Dendrogram](Dendrogram.jpg)
 
