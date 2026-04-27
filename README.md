@@ -8,7 +8,7 @@ The goal is to provide a Business Intelligence framework that supports automated
 
 HOW TO RUN
 
-1. Open [final_code.ipynb) in Google Colab.
+1. Open [final_code.ipynb] in Google Colab.
 2. Install dependencies: `!pip install yfinance` in the first cell.
 3. Run all cells to replicate the data extraction and clustering results.
 
