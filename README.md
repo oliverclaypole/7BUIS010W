@@ -17,6 +17,7 @@ This project requires Python 3.x and the following libraries:
 To install all dependencies at once, run:
 ```bash
 pip install yfinance pandas numpy matplotlib seaborn scikit-learn
+```
 
 
 # Hierarchical Dendrogram
