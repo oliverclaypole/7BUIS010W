@@ -5,14 +5,19 @@ Project Overview:
 This project leverages Python-based data analytics and machine learning to segment S&P 500 stocks based on their risk-return profiles. By calculating Beta, Annual Volatility, and Mean Daily Returns, we categorize 496 stocks into three distinct investment regimes (Defensive, Moderate, and Aggressive).
 The goal is to provide a Business Intelligence framework that supports automated investment advice and ESG-aligned portfolio management within a Fintech context.
 
-
-HOW TO RUN
-
-1. Open [final_code.ipynb] in Google Colab.
-2. Install dependencies: `!pip install yfinance` in the first cell.
-3. Run all cells to replicate the data extraction and clustering results.
-
 You can view the full analytical report here: [Final_Report.pdf](Final_Report.pdf)
+You can view the full code here: [final_code.ipnyb](final_code.ipnyb)
+
+This project requires Python 3.x and the following libraries:
+
+**Data:** `yfinance`, `pandas`, `numpy`
+**Visualization:** `matplotlib`, `seaborn`
+**Machine Learning:** `scikit-learn`
+
+To install all dependencies at once, run:
+```bash
+pip install yfinance pandas numpy matplotlib seaborn scikit-learn
+
 
 # Hierarchical Dendrogram
 ![Dendrogram](Dendrogram.jpg)
