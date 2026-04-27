@@ -24,25 +24,19 @@ pip install yfinance pandas numpy matplotlib seaborn scikit-learn
 
   ### Agglomerative Clustering
   Visualising the spatial separation of equities based on Return, Beta, and Volatility.
-  ![3D Cluster Map](assets/Agglomerative_Clustering.jpg)
+  ![3D Cluster Map](Agglomerative_Clustering.jpg)
 
   ### Hierarchical Dendrogram
   The Ward's Linkage method used to justify the selection of three distinct clusters.
-  ![Dendrogram](assets/Dendrogram.jpg)
+  ![Dendrogram](Dendrogram.jpg)
 
-</details>
-
-# Hierarchical Dendrogram
-![Dendrogram](Dendrogram.jpg)
-
-# Agglomerative Clustering
-![3D Cluster Map](Agglomerative_Clustering.jpg)
-
-# Elbow Graph
+  # Elbow Graph
 ![Dendrogram](elbow.jpg)
 
 # Statistical Distribution (Boxplots)
 ![Boxplots](visualisations.jpg)
+
+</details>
 
 Data ETL: Extraction of 3 years of market data using the Yahoo Finance API.
 Feature Engineering: Calculation of financial risk metrics and data normalization using StandardScaler.
@@ -56,9 +50,6 @@ Dendrogram: Justifies the selection of N=3 clusters using Ward's linkage.
 3D Risk Map: Visualizes how Cluster 2 (Aggressive) separates from the market core based on Beta.
 
 Boxplots: Demonstrates the statistical "spread" of each group, confirming that Cluster 0 has the lowest variance.Language: Python 3.x (Google Colab)
-
-Libraries: 
-yfinance, scikit-learn, pandas, matplotlib & seaborn, seaborn, scipy, silhouette_score, StandardScaler, numpy
 
 BI Tools: 
 Star Schema Design, CRM Sustainability Framework
