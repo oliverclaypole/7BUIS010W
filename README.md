@@ -1,4 +1,3 @@
-
 7BUIS010W.2 Data Warehousing and Business Intelligence Coursework
 
 Project Overview:
@@ -6,19 +5,32 @@ This project leverages Python-based data analytics and machine learning to segme
 The goal is to provide a Business Intelligence framework that supports automated investment advice and ESG-aligned portfolio management within a Fintech context.
 
 You can view the full analytical report here: [Final_Report.pdf](Final_Report.pdf)
-You can view the full code here: [final_code.ipnyb](final_code.ipnyb)
+You can view the full code here: [SP5000_Risk_Clusterring_Analysis.ipynb](SP5000_Risk_Clusterring_Analysis.ipynb)
 
 This project requires Python 3.x and the following libraries:
 
-**Data:** `yfinance`, `pandas`, `numpy`
-**Visualization:** `matplotlib`, `seaborn`
-**Machine Learning:** `scikit-learn`
+Data: `yfinance`, `pandas`, `numpy`
+Visualisation: `matplotlib`, `seaborn`
+Machine Learning: `scikit-learn`
 
 To install all dependencies at once, run:
 ```bash
 pip install yfinance pandas numpy matplotlib seaborn scikit-learn
 ```
+<details>
+  <summary><b>Click to view Technical Visualisations</b></summary>
+  
+  <br>
 
+  ### Agglomerative Clustering
+  Visualising the spatial separation of equities based on Return, Beta, and Volatility.
+  ![3D Cluster Map](assets/Agglomerative_Clustering.jpg)
+
+  ### Hierarchical Dendrogram
+  The Ward's Linkage method used to justify the selection of three distinct clusters.
+  ![Dendrogram](assets/Dendrogram.jpg)
+
+</details>
 
 # Hierarchical Dendrogram
 ![Dendrogram](Dendrogram.jpg)
