@@ -38,10 +38,7 @@ pip install yfinance pandas numpy matplotlib seaborn scikit-learn
 
 </details>
 
-To install all dependencies at once, run:
-```bash
-pip install yfinance pandas numpy matplotlib seaborn scikit-learn
-```
+
 
 Data ETL: Extraction of 3 years of market data using the Yahoo Finance API.
 Feature Engineering: Calculation of financial risk metrics and data normalis ation using StandardScaler.
